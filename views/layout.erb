@@ -31,7 +31,12 @@
         <%= erb :header %>
       </div>
       <div id="content">
-        <%= yield %>
+        <%= erb :slide_show if @slides == "show" %>
+        <%= erb :blog_role if @blog_role == "show" %>
+        <div id="content-wrap">
+          <%= yield %>
+        </div>
+        <%= erb :recent if @recent == "show" %>
       </div>
       <div id="footer">
         <!-- footer here -->
