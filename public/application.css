@@ -1,4 +1,4 @@
-/*
+/* DO NOT TOUCH THIS PAGE DIRECTLY
 */
 
 /*
@@ -941,6 +941,14 @@ label {
   width: 300px;
 }
 
+
+.quarter {
+  position: relative;
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+  width: 220px;
+}
 /* line 182, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
 .one_third label {
   display: block;

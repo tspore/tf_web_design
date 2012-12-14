@@ -1,0 +1,21 @@
+Add pages: 
+  - homepage links
+    - home
+    - about_us
+    - our_services 
+    - pre_planning
+    - blogs
+    
+
+
+ADD to SAAS:
+.quarter {
+  position: relative;
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+  width: 220px;
+}
+
+3.92 h1
+3 p 
