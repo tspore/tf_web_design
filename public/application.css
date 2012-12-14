@@ -1,0 +1,1345 @@
+/*
+*/
+
+/*
+    ColorBox Core Style
+    The following rules are the styles that are consistant between themes.
+    Avoid changing this area to maintain compatability with future versions of ColorBox.
+*/
+#colorbox, #cboxOverlay, #cboxWrapper{position:absolute; top:0; left:0; z-index:9999; overflow:hidden;}
+#cboxOverlay{position:fixed; width:100%; height:100%;}
+#cboxMiddleLeft, #cboxBottomLeft{clear:left;}
+#cboxContent{position:relative; overflow:visible;}
+#cboxLoadedContent{overflow:auto;}
+#cboxLoadedContent iframe{display:block; width:100%; height:100%; border:0;}
+#cboxTitle{margin:0;}
+#cboxLoadingOverlay, #cboxLoadingGraphic{position:absolute; top:0; left:0; width:100%;}
+#cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{cursor:pointer;}
+
+/* 
+    ColorBox example user style
+    The following rules are ordered and tabbed in a way that represents the
+    order/nesting of the generated HTML, so that the structure easier to understand.
+*/
+#cboxOverlay{background:#000;}
+
+#colorbox{}
+    #cboxTopLeft{width:14px; height:14px; background:url(/images/controls.png) no-repeat 0 0;}
+    #cboxTopCenter{height:14px; background:url(/images/border.png) repeat-x top left;}
+    #cboxTopRight{width:14px; height:14px; background:url(/images/controls.png) no-repeat -36px 0;}
+    #cboxBottomLeft{width:14px; height:43px; background:url(/images/controls.png) no-repeat 0 -32px;}
+    #cboxBottomCenter{height:43px; background:url(/images/border.png) repeat-x bottom left;}
+    #cboxBottomRight{width:14px; height:43px; background:url(/images/controls.png) no-repeat -36px -32px;}
+    #cboxMiddleLeft{width:14px; background:url(/images/controls.png) repeat-y -175px 0;}
+    #cboxMiddleRight{width:14px; background:url(/images/controls.png) repeat-y -211px 0;}
+    #cboxContent{background:#fff;}
+        #cboxLoadedContent{margin-bottom:5px;}
+        #cboxLoadingOverlay{background:url(/images/loading_background.png) no-repeat center center;}
+        #cboxLoadingGraphic{background:url(/images/loading.gif) no-repeat center center;}
+        #cboxTitle{position:absolute; bottom:-25px; left:0; text-align:center; width:100%; font-weight:bold; color:#7C7C7C;}
+        #cboxCurrent{position:absolute; bottom:-25px; left:58px; font-weight:bold; color:#7C7C7C;}
+        
+        #cboxPrevious, #cboxNext, #cboxClose, #cboxSlideshow{position:absolute; bottom:-29px; background:url(/images/controls.png) no-repeat 0px 0px; width:23px; height:23px; text-indent:-9999px;}
+        #cboxPrevious{left:0px; background-position: -51px -25px;}
+        #cboxPrevious.hover{background-position:-51px 0px;}
+        #cboxNext{left:27px; background-position:-75px -25px;}
+        #cboxNext.hover{background-position:-75px 0px;}
+        #cboxClose{right:0; background-position:-100px -25px;}
+        #cboxClose.hover{background-position:-100px 0px;}
+        
+        .cboxSlideshow_on #cboxSlideshow{background-position:-125px 0px; right:27px;}
+        .cboxSlideshow_on #cboxSlideshow.hover{background-position:-150px 0px;}
+        .cboxSlideshow_off #cboxSlideshow{background-position:-150px -25px; right:27px;}
+        .cboxSlideshow_off #cboxSlideshow.hover{background-position:-125px 0px;}
+/* Live template should not have - colors for backgrounds, need to add in CSS styles for each element used.... E.g. H1, forms P tags. Then client can overright the presets w/ their own styles. */
+/*These are system Defaults please only update the /theme/subdomain/main.css*/
+
+html {
+	height: 100%;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	margin: 0; 
+	padding: 0;
+}
+fieldset, img {
+	border: 0;
+}
+h1 {
+	font-size: 3em;
+	line-height: 1.5em;
+}
+h2 {
+	font-size: 2em;
+	line-height: 1em;
+}
+h3 {
+	font-size: 1.5em;
+	line-height: 1.25em;
+}
+p {
+	margin-top: .5em;
+	margin-bottom: 0em;
+	letter-spacing: 0;
+}
+ul, ol, dl {
+	margin: 10px 0;
+	padding-left: 30px;
+}
+/*tr {
+	background: #eee;
+}
+tr.trAlt {
+	background: #ccc;
+}
+th {
+	margin: 5px;
+	padding: 10px;
+}
+th .current {
+	padding-right: 35px;
+	padding-bottom: 15px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+th .asc {
+	background-image: url(/images/up.png);
+}
+th .desc {
+	background-image: url(/images/down.png);
+}
+td {
+	padding: 1px;
+}*/
+/* Specific ID's */
+#wrapper {
+	margin: 0px auto;
+	padding: 0px;
+	text-align: left;
+	width: 960px;
+}
+#header, #nav, #footer {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 960px;
+}
+#nav ul {	
+}
+#nav li {
+	list-style-type: none;
+	padding: 0 10px;
+}
+#content {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 960px;
+}
+#aside {
+	float: left;
+	width: 300px;
+}
+#article {
+	float: left;
+	width:620px;
+}
+#search {
+	float: left;
+	width: 470px;
+	margin-left, margin-right: 5px;
+	height: 320px;
+}
+#map_canvas {
+	float: left;
+	width:470px;
+	margin-left, margin-right: 5px;
+	height:320px;
+}
+#map_canvas_lg {
+	float: left;
+	width:940px;
+	margin: 0 10px;
+	height:400px;
+} 
+#records { 
+	width: 960px;
+	float: left;
+}
+#records table {
+	border-collapse:collapse;
+	width:100%;
+}
+#records th {
+	background-color:#ddd;
+	border:solid 1px #000;
+	margin:0px;
+	padding:0.5em;
+}
+#records td {
+	background-color:#fff;
+	border:solid 1px #000;
+	margin:0px;
+	padding:0.5em;
+}
+#records tr.trAlt td {
+	background-color:#eee;
+	border:solid 1px #000;
+	margin:0px;
+	padding:0.5em;
+}
+#records .pagination {
+	text-align:center;
+	width:100%;
+}
+#footer {
+	text-align: center;
+}
+/*ETC*/
+.tinny {
+	size: .5em;
+}
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+asideLt, asideRt {
+	width: 100px;
+}
+/* ----- SimpleForm Styles ----- */
+
+.simple_form div.input {
+  margin-bottom: 10px;
+}
+
+.simple_form label {
+  float: left;
+/*  width: 150px;*/
+  text-align: right;
+  margin: 2px 10px;
+}
+
+div.boolean, .simple_form input[type='submit'] {
+  margin-left: 120px;
+}
+
+div.boolean label, label.collection_radio {
+  float: none;
+  margin: 0;
+	text-align: left;
+	position: absolute;
+/*	left: 80px;*/
+}
+
+label.collection_radio {
+  margin-right: 10px;
+  vertical-align: -2px;
+  margin-left:   2px;
+}
+
+.field_with_errors {
+  background-color: #ff3333;
+}
+
+.simple_form .error {
+  clear:   left;
+  color:   black;
+  display: block;
+  margin-left: 120px;
+  font-size:    12px;
+}
+
+.simple_form .hint {
+  clear: left;
+  margin-left: 120px;
+  font-size:    12px;
+  color: #555;
+  display: block;
+  font-style: italic;
+}
+
+input.radio {
+  margin-right: 5px;
+  vertical-align: -3px;
+}
+
+input.check_boxes {
+  margin-left: 3px;
+  vertical-align: -3px;
+}
+
+label.collection_check_boxes {
+  float: none;
+  margin: 0;
+  vertical-align: -2px;
+  margin-left:   2px;
+}
+
+	
+@-moz-document url-prefix() {
+	#article_create a, #video_upload a, #gallery_upload a { 
+		padding-left: 50px;
+		}
+}
+#record_search div.boolean {
+	margin-left: 0px;
+}
+	
+#map_canvas {
+	font-size: 12px;
+}
+#life_story img{
+    width: auto;
+    height: auto;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.whole {
+    padding: 10px;
+}
+.plot_info h3 {
+    padding-top: 10px;
+}
+.plot_info li {
+    list-style: none;
+    font-weight: bold;
+}
+.plot_info ul {
+    padding-left: 5px;
+}
+.missing_gps {
+    width: 288px;
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 10px;
+}
+.half {
+    width: 460px;
+    padding: 10px;
+    float: left;
+}
+#blog_roll {
+    background-color: white;
+    min-height: 700px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+}
+.contact_form input[type="text"], #contact_body {
+    border: 1px solid #CCC;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.175);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.175);
+    font-size: 1.2em;
+    padding: 2px 4px;
+    border-radius: 5px;
+}
+
+.help {
+    margin-left: 150px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#contact_hidden_form {
+    width: 400px;
+    height: 450px;
+}
+/* line 1, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#main_column {
+  width: 602px;
+  float: left;
+}
+
+/* line 6, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#cover_photo {
+  overflow: hidden;
+}
+/* line 10, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#cover_photo img {
+  float: left;
+  border: 1px solid gray;
+}
+
+/* line 17, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#cover_header {
+  position: relative;
+}
+
+/* line 21, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#profile_photo {
+  border-radius: 6px;
+  margin-top: -90px;
+  margin-left: 20px;
+  float: left;
+  z-index: 2;
+}
+/* line 28, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#profile_photo img {
+  z-index: 2;
+  width: 160px;
+  border: 10px solid white;
+  border-radius: 12px;
+  -moz-box-shadow: 5px 5px 30px #555;
+  -webkit-box-shadow: 5px 5px 30px #555;
+  box-shadow: 5px 5px 30px #555;
+}
+
+/* line 39, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#new_thing_section {
+  margin-top: 20px;
+}
+
+/* line 43, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#personal_info {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  width: 380px;
+}
+/* line 51, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#personal_info #record_name {
+  font-weight: bold;
+}
+
+/* line 60, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#upload_box {
+  border: 1px solid #9BC;
+  border-radius: 6px;
+  -moz-box-shadow: 2px 2px 5px #555;
+  -webkit-box-shadow: 2px 2px 5px #555;
+  box-shadow: 2px 2px 5px #555;
+  background: #eeeeee;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* line 70, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#upload_box .upload_button {
+  padding: 12px 10px;
+  float: left;
+  background: white;
+  font-weight: bold;
+  margin-left: 50px;
+}
+/* line 78, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#upload_box .two_third_one_third {
+  width: 190px;
+}
+/* line 82, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#upload_box #video_upload, #upload_box #gallery_upload, #upload_box #article_create {
+  height: 55px;
+}
+/* line 85, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#upload_box #video_upload a, #upload_box #gallery_upload a, #upload_box #article_create a {
+  display: block;
+}
+
+/* line 92, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#activity_section ul {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+}
+/* line 97, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#activity_section li {
+  border: 1px solid #9Bc;
+  border-radius: 6px;
+  -moz-box-shadow: 2px 2px 5px #555;
+  -webkit-box-shadow: 2px 2px 5px #555;
+  box-shadow: 2px 2px 5px #555;
+  background: #ebf2f7;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* line 107, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#activity_section li .photo {
+  float: left;
+  width: 200px;
+}
+/* line 110, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#activity_section li .photo img {
+  width: 200px;
+}
+/* line 114, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#activity_section li .life_photo {
+  padding-right: 10px;
+  float: left;
+  width: 200px;
+}
+/* line 118, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#activity_section li .life_photo img {
+  width: 200px;
+}
+/* line 123, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#activity_section li .user_info {
+  float: left;
+  margin-left: 20px;
+  font-size: 20px;
+  text-align: center;
+  width: 200px;
+}
+/* line 130, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#activity_section li .user_info .user_name {
+  font-weight: bold;
+}
+/* line 135, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#activity_section li .created_at {
+  float: right;
+}
+
+/* line 141, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#right_column {
+  float: left;
+  margin-left: 35px;
+}
+/* line 145, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#right_column #map_container {
+  position: relative;
+}
+/* line 149, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#right_column #map_canvas {
+  width: 290px;
+  height: 279px;
+  float: none;
+}
+/* line 155, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#right_column #map_form {
+  width: 290px;
+  float: none;
+}
+/* line 160, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#right_column #manager_container {
+  margin-top: 50px;
+  width: 290px;
+}
+/* line 165, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/records.css.scss */
+#right_column #marker {
+  height: 70px;
+}
+/* line 4, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/sales.css.scss */
+.bouquet {
+  width: 200px;
+  overflow: hidden;
+  padding: 5px 10px;
+  text-align: center;
+  float: left;
+}
+
+/* line 11, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/sales.css.scss */
+.price {
+  color: blue;
+  font-style: italic;
+}
+
+/* line 16, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/sales.css.scss */
+.flower_tomb {
+  width: 150px;
+  float: right;
+  margin-right: 200px;
+}
+
+/* line 21, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/sales.css.scss */
+.flower_ad {
+  background-image: url("http://daf69a4653fb20cf84a3-faddb0eb9b60d57ec207581fd37bdb12.r58.cf1.rackcdn.com/flowers/tf_local_flower_ad_295x100_2.png");
+  height: 100px;
+  widows: 290px;
+  text-indent: -999px;
+}
+/* line 27, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/sales.css.scss */
+.flower_ad a {
+  display: block;
+  height: 100px;
+}
+/* line 1, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+#slides {
+  z-index: 1000;
+  margin-left: 170px;
+  position: relative;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+/* line 14, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+.slides_container {
+  width: 600px;
+  min-height: 365px;
+  overflow: hidden;
+  position: relative;
+  display: none;
+}
+
+/* line 22, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+.slides_container div {
+  width: 600px;
+  height: 400px;
+  display: block;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+/* line 36, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+.slides_container div.slide {
+  width: 600px;
+  /*height:400px;*/
+  display: block;
+}
+
+/*
+	Next/prev buttons
+*/
+/* line 47, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+#slides .next, #slides .prev {
+  position: absolute;
+  top: 157px;
+  width: 24px;
+  height: 43px;
+  display: block;
+  z-index: 101;
+}
+
+/* line 56, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+#slides .next {
+  left: 585px;
+  background-image: url(/assets/arrow-next.png);
+  text-indent: -9999px;
+  left: 600px;
+}
+
+/* line 62, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+#slides .prev {
+  background-image: url(/assets/arrow-prev.png);
+  text-indent: -9999px;
+  left: -25px;
+}
+
+/*
+	Pagination
+*/
+/* line 72, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+.pagination {
+  margin-top: 6px;
+  margin-right: 0px;
+  width: 100px;
+}
+
+/* line 78, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+.pagination li {
+  float: left;
+  margin: 0 1px;
+  list-style: none;
+}
+
+/* line 84, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+.pagination li a {
+  display: block;
+  width: 12px;
+  height: 0;
+  padding-top: 12px;
+  background-image: url(/assets/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+/* line 96, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+.pagination li.current a {
+  background-position: 0 -12px;
+}
+
+/*
+	Caption
+*/
+/* line 104, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/slideshow.css.scss */
+.caption {
+  z-index: 500;
+  position: absolute;
+  bottom: -35px;
+  left: 0;
+  height: 30px;
+  padding: 5px 20px 0 20px;
+  background: #000;
+  background: rgba(0, 0, 0, 0.5);
+  width: 540px;
+  font-size: 1.3em;
+  line-height: 1.33;
+  color: #fff;
+  border-top: 1px solid #000;
+  text-shadow: none;
+}
+/* line 1, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: Helvetica;
+  font-size: 12pt;
+  margin: 0px;
+  position: relative;
+}
+
+/* line 9, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+h1 {
+  font-family: Georgia;
+  font-size: 4em;
+  font-weight: lighter;
+  text-align: center;
+}
+
+/* line 15, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+h1.a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* line 19, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+h2 {
+  font-family: Georgia;
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+/* line 24, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+h3 {
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+
+/* line 28, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+h4 {
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+
+/* line 32, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+hr {
+  border: none;
+  color: #999;
+  background-color: #ccc;
+  height: 1px;
+}
+
+/* line 38, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+input[type='text'], input[type='password'], textarea {
+  font-size: 0.85em;
+}
+
+/* line 41, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+label {
+  font-size: 1em;
+}
+
+/* line 44, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#nav {
+  border-color: #333;
+  border-style: solid;
+  border-width: 1px 0px;
+}
+
+/* line 49, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#nav ul {
+  text-align: center;
+}
+
+/* line 52, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#nav li {
+  display: inline;
+  font-family: Georgia;
+  font-size: 1.25em;
+}
+
+/* line 57, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#nav a {
+  text-decoration: none;
+}
+
+/* line 60, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#content {
+  position: relative;
+}
+
+/* line 63, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#footer {
+  border-color: #333;
+  border-style: solid;
+  border-width: 1px 0px;
+}
+
+/* line 68, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#flash_alert {
+  background-color: #cc0000;
+  color: #fff;
+  margin: 0px;
+  padding: 8px;
+}
+
+/* line 74, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#flash_error {
+  background-color: #cc0000;
+  color: #fff;
+  margin: 0px;
+  padding: 8px;
+}
+
+/* line 80, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#flash_notice {
+  background-color: #00cc66;
+  color: #fff;
+  margin: 0px;
+  padding: 8px;
+}
+
+/* line 86, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#user_nav {
+  margin: 0px;
+  padding: 8px;
+  text-align: right;
+}
+
+/* line 91, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#gallery {
+  width: 620px;
+}
+
+/* line 94, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#gallery_upload {
+  background: url("images/gallery_upload.png") no-repeat bottom left;
+  height: 48px;
+  text-indent: 58px;
+}
+
+/* line 99, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#gallery_upload2 {
+  background: url("images/uploader_02.png") no-repeat bottom left;
+  height: 48px;
+  text-indent: 58px;
+  overflow: hidden;
+}
+
+/* line 105, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#video_upload2 {
+  background: url("images/uploader_01.png") no-repeat bottom left;
+  height: 48px;
+  text-indent: 58px;
+  overflow: hidden;
+}
+
+/* line 111, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#article_create2 {
+  background: url("images/uploader_03.png") no-repeat bottom left;
+  height: 48px;
+  text-indent: 58px;
+  overflow: hidden;
+}
+
+/* line 117, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#article_create2 h4, #video_upload2 h4, #gallery_upload2 h4 {
+  color: #999999;
+}
+
+/* line 120, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#gallery .photo {
+  float: left;
+  height: 124px;
+  width: 124px;
+}
+
+/* line 125, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#gallery .photo img {
+  height: 116px;
+  margin: 4px;
+  width: 116px;
+  overflow: hidden;
+}
+
+/* line 131, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#video_upload {
+  background: url("images/video_upload.png") no-repeat bottom left;
+  height: 48px;
+  text-indent: 58px;
+}
+
+/* line 136, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#article_create {
+  background: url("images/article_create.png") no-repeat bottom left;
+  height: 48px;
+  text-indent: 58px;
+}
+
+/*ONE*/
+/* line 142, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one {
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+  width: 940px;
+}
+
+/* line 148, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one #map_lg {
+  height: 470px;
+  width: 940px;
+}
+
+/*ONE HALF*/
+/* line 153, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_half {
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+  width: 460px;
+}
+
+/* line 159, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_half label {
+  position: absolute;
+  text-align: right;
+  width: 150px;
+}
+
+/* line 164, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_half input, .one_half #account {
+  margin-left: 160px;
+}
+
+/* line 167, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_half input[type='text'], .one_half input[type='password'], .one_half textarea {
+  /*width:300px;*/
+}
+
+/* line 170, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_half #map_canvas, .one_half #map_form, .one_half #smallMap {
+  width: 460px;
+  height: 345px;
+}
+
+/*ONE THIRD*/
+/* line 175, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_third {
+  position: relative;
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+  width: 300px;
+}
+
+/* line 182, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_third label {
+  display: block;
+  float: left;
+  text-align: right;
+  width: 80px;
+}
+
+/* line 188, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_third input, .one_third#account {
+  margin-left: 100px;
+}
+
+/* line 191, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_third input[type='text'], .one_third input[type='password'], .one_third textarea {
+  display: block;
+  margin-left: 100px;
+  width: 190px;
+}
+
+/* line 196, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_third img {
+  overflow: hidden;
+}
+
+/* line 199, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.one_third #map_canvas, .one_third #map_form {
+  width: 300px;
+  height: 300px;
+}
+
+/*TWO THIRD*/
+/* line 204, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.two_third {
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+  width: 620px;
+}
+
+/* line 210, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.two_third img {
+  width: 600px;
+  height: 480px;
+}
+
+/* line 214, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.two_third input[type='text'], .two_third input[type='password'], .two_third input[type='file'], .two_third textarea {
+  display: block;
+  margin-left: 220px;
+  width: 400px;
+}
+
+/* line 219, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.two_third label {
+  display: block;
+  float: left;
+  text-align: right;
+  width: 200px;
+}
+
+/* line 225, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.two_third p.button {
+  display: block;
+  margin-left: 220px;
+  width: 400px;
+}
+
+/* line 230, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+a.buy_button {
+  background: #FB0;
+  border-radius: 3px;
+  color: white;
+  padding: 5px;
+  display: block;
+  background-color: #FB0;
+  text-shadow: 0px 1px #BF8C00;
+  text-decoration: none;
+  font-size: 12pt;
+  width: 200px;
+  box-shadow: 0px -1px #ffdd00;
+  margin: 5px 10px;
+}
+
+/* line 244, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.two_third #map_canvas, .two_third #map_form {
+  width: 600px;
+  height: 480px;
+}
+
+/*TWO THIRD ONE THIRD*/
+/* line 249, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.two_third_one_third {
+  float: left;
+  overflow: hidden;
+  width: 200px;
+}
+
+/**/
+/* line 256, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#stats {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* line 261, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#stats li {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+/* line 267, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#stats li span.key {
+  float: left;
+  width: 150px;
+}
+
+/* line 271, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#stats li span.value {
+  text-align: right;
+  width: 150px;
+}
+
+/* Asset viewing*/
+/* line 276, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#Asset {
+  width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 281, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#picture {
+  width: 600px;
+}
+
+/* line 284, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#Asset .approval {
+  width: 280px;
+  float: left;
+}
+
+/* line 288, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#rtImg {
+  position: fixed;
+  top: 150px;
+  right: 10%;
+  float: left;
+  background: black;
+  padding: 5px 0px 15px 15px;
+}
+
+/* line 296, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#rtImg a {
+  font-size: 2em;
+  color: white;
+  font-weight: bold;
+}
+
+/* line 301, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.token {
+  margin-left: 150px;
+}
+
+/* line 304, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.registration_caption {
+  margin-left: 125px;
+  font-style: italic;
+}
+
+/* line 308, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#article_form {
+  width: 200px;
+  float: right;
+}
+
+/* line 312, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#article_form a {
+  display: block;
+}
+
+/* line 315, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.spinner {
+  position: fixed;
+  color: #FFF;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  /* half width of the spinner gif */
+  margin-top: -50px;
+  /* half height of the spinner gif */
+  text-align: center;
+  z-index: 1234;
+  overflow: auto;
+  width: 126px;
+  /* width of the spinner gif */
+  height: 112px;
+  /*hight of the spinner gif +2px to fix IE8 issue */
+}
+
+/* line 328, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#shadow {
+  background-image: url("images/shade1x1.png");
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+/* line 337, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.tab {
+  background-color: #ffbb00;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0px -1px #ffdd00;
+  color: #ffffff!important;
+  font-weight: normal;
+  height: 20px;
+  padding: 5px;
+  position: absolute;
+  text-decoration: none;
+  text-shadow: 0px 1px #bf8c00;
+  z-index: 100;
+}
+
+/* line 350, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#map_tab {
+  bottom: 0px;
+}
+
+/* line 353, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#print_view {
+  bottom: 0px;
+  right: 0px;
+}
+
+/* line 357, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#print_view a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* line 364, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#agenda {
+  margin: 30px auto;
+  width: 600px;
+}
+
+/* line 369, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#agenda_items_wrapper {
+  margin: 30px 0;
+}
+
+/* line 373, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#agenda_header, #agenda_footer {
+  text-align: center;
+}
+
+/* line 377, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#agenda_search {
+  margin-bottom: 20px;
+}
+
+/* line 381, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#agenda_search div {
+  display: inline;
+}
+
+/* line 385, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#agenda_search input[type="submit"] {
+  margin-left: 5px;
+}
+
+/* line 388, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#signup {
+  text-align: center;
+}
+
+/* line 391, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#bigPic {
+  width: 600px;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+/* line 398, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#bigPic img {
+  position: absolute;
+  display: none;
+  overflow: hidden;
+  width: 600px;
+  height: 400px;
+}
+
+/* line 405, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.gallery_thumb {
+  float: left;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  width: 135px;
+  height: 130px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+/* line 415, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#recent, #updates {
+  width: 350px;
+  height: 130px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 65px;
+  margin-bottom: 50px;
+  float: left;
+}
+/* line 426, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#recent .scroll, #updates .scroll {
+  overflow: scroll;
+  height: 100px;
+}
+
+/* line 432, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#recent ul, #updates ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+/* line 436, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.updated {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+/* line 440, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.history {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* line 445, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.history .change_type {
+  color: #999999;
+}
+
+/* line 451, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.history .author {
+  font-size: .8em;
+  float: right;
+  color: #999999;
+}
+
+/* line 456, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#history {
+  display: none;
+}
+
+/* line 459, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#history h3 {
+  padding-left: 20px;
+}
+
+/* line 462, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.humanizer {
+  display: block;
+  color: red;
+  padding-left: 10px;
+}
+
+/* line 467, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.featured {
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* line 472, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.plot_sale {
+  padding: 10px 0px;
+  font-size: 1.1em;
+}
+
+/* line 476, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.alert {
+  color: red;
+}
+
+/* line 479, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+#recent_paginate, #updates_paginate {
+  display: none;
+}
+
+/* line 482, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
+.show_more a {
+  font-size: 1.1em;
+  font-weight: bold;
+}
