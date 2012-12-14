@@ -8,7 +8,7 @@ Add pages:
     
 
 
-ADD to SAAS:
+ADD to SAAS app:
 .quarter {
   position: relative;
   float: left;
