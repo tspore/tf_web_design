@@ -1,5 +1,6 @@
 require 'sinatra'
 
+# App runs with shotgun application.rb
 get '/' do
   @css_class = "homepage"
   @blog_role = "show"
