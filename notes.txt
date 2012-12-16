@@ -16,6 +16,13 @@ ADD to SAAS app:
   overflow: hidden;
   width: 220px;
 }
+#recent .scroll, #updates .scroll {
+  overflow: auto;
+  height: 100px;
+}
+# blog_scroll <- around the blog section
+
+
 
 3.92 h1
 3 p 

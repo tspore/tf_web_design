@@ -1272,7 +1272,7 @@ a.buy_button {
 }
 /* line 426, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
 #recent .scroll, #updates .scroll {
-  overflow: scroll;
+  overflow: auto;
   height: 100px;
 }
 
