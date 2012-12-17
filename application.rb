@@ -11,6 +11,11 @@ get '/' do
   erb :home
 end
 
+get '/about_us' do
+  @css_class = "subpage"
+  erb :about_us
+end
+
 get '/inside' do
   @css_class = "subpage"
   erb :page
