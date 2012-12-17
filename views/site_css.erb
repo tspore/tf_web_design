@@ -94,17 +94,13 @@ border-bottom-left-radius: 8px;
   width: 460px;
   height: 120px;
   background: none;
-  overflow: hide;
 }
 #blog_roll h3 {
 color: #8B2A38;
 font-size: 1.3em;
 font-family: Georgia, sans-serif;
 }
-#blog_scroll {
-  height: 100px;
-  overflow:auto;
-}
+
 #recent {
   margin: 10px;
   overflow: hidden;
@@ -112,6 +108,7 @@ font-family: Georgia, sans-serif;
   float: left;
   margin-left: 480px!important;
   border:none;
+  color: #ffffff;
 }
 #updates {
   margin: 10px;
@@ -119,8 +116,71 @@ font-family: Georgia, sans-serif;
   width: 200px;
   float: left;
   border:none;
+  color: #ffffff;
 }
+#recent, #updates {
+  height: 200px;
+}
+#recent .scroll, #updates .scroll {
+  height: 170px;
+}
+#recent h3, #updates h3, #blog_roll h1 { 
+  color: #ffffff;
+  background: #8B2A38;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding: 5px;
+  font-size: 1.7em;
+  }
 .pagination {
 position: absolute;
 top: 360px;
+}
+.scroll, #blog_scroll {
+  background: #000000 url('/web_images/marble.jpg');
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #ffffff;
+  height: 165px;
+  overflow: auto;
+}
+.scroll a, #blog_scroll a {
+  color: #ffffff;
+}
+.scroll a:hover, #blog_scroll a:hover {
+  color: #c7ab5e;
+}
+.updated {
+  display: block;
+  font-size: .75em;
+  line-height: 1.7;
+}
+#footer {
+  background: url('web_images/background_bottom.jpg');
+  height: 65px;
+  color: #ffffff;
+}
+
+#footer ul {
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#footer li {
+float: left;
+list-style: none;
+padding: 5px;
+}
+.foot_space {
+  width: 150px
+}
+#footer a {
+  color: #ffffff;
+}
+.event {
+  padding: 5px 10px
+}
+.mobile {
+  display:none;
 }
