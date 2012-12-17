@@ -32,12 +32,12 @@
         <%= erb :header %>
       </div>
       <div id="content">
-        <%= erb :slide_show if @slides == "show" %>
-        <%= erb :blog_role if @blog_role == "show" %>
+        <%= partial(:"default/slide_show") if @slides == "show" %>
+        <%= partial(:"default/blog_role") if @blog_role == "show" %>
         <div id="content-wrap">
           <%= yield %>
         </div>
-        <%= erb :recent if @recent == "show" %>
+        <%= partial(:"default/recent") if @recent == "show" %>
       </div>
       <div id="footer">
         <!-- footer here -->
