@@ -1,7 +1,9 @@
 require 'sinatra'
-
+require 'sinatra/partial'
 
 # App runs with shotgun application.rb
+
+set :partial_template_engine, :erb
 
 get '/' do
   @css_class = "homepage"
