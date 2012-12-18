@@ -30,6 +30,14 @@ get '/our_services' do
   erb :our_services
 end
 
+get '/pre_planning' do
+  erb :pre_planning
+end
+
+get '/featured' do
+  erb :'default/featured'
+end
+
 get '/contact' do
   erb :contact
 end
