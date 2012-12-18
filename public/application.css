@@ -1350,3 +1350,38 @@ a.buy_button {
   overflow: hidden;
   width: 220px;
 }
+
+div.contact_text {
+width: 321px;
+margin: 10px 10px 20px 10px;
+text-align:center;
+}
+
+#marker_hidden_form p {
+width: 371px;
+padding: 5px 10px 15px 10px;
+clear:both;
+}
+
+#marker_hidden_form h2 {
+margin-left:5px;
+}
+
+.contact_form.name { margin-top:20px; }
+
+#marker_hidden_form form#new_contact {
+width: 371px;
+padding: 0 0 0 10px;
+}
+#new_contact input[type="submit"] {
+width: 50px;
+float: right;
+}
+.contact_form label {margin: 1px 0 !important; position: absolute; text-align: right; width: 137px; float: left; margin: 2px 10px; text-align: right; font-size: 1em;}
+
+.contact_form input, .contact_form textarea { margin: 0 0 5px 144px;}
+.contact_form input { width: 183px; }
+.contact_form textarea { width: 185px; }
+
+
+.human label { clear:both; }
