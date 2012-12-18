@@ -13,6 +13,19 @@ get '/' do
   erb :home
 end
 
+get '/blogs' do
+  erb :'default/blogs'
+end
+
+get '/blogs/first' do
+  erb :'default/first'
+end
+
+get '/about_us' do
+  @css_class = "subpage"
+  erb :about_us
+end
+
 get '/inside' do
   @css_class = "subpage"
   erb :page
