@@ -9,19 +9,12 @@ Add pages:
 
 
 ADD to SAAS app:
-.quarter {
-  position: relative;
+.two_thirds {
   float: left;
   margin: 10px;
   overflow: hidden;
-  width: 220px;
+  width: 620px;
 }
-#recent .scroll, #updates .scroll {
-  overflow: auto;
-  height: 100px;
-}
-# blog_scroll <- around the blog section
-
 
 
 3.92 h1

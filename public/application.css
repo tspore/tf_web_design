@@ -988,7 +988,12 @@ label {
   overflow: hidden;
   width: 620px;
 }
-
+.two_thirds {
+  float: left;
+  margin: 10px;
+  overflow: hidden;
+  width: 620px;
+}
 /* line 210, /Users/tspore/Rails/Active/tombfinder/app/assets/stylesheets/style.css.scss */
 .two_third img {
   width: 600px;
