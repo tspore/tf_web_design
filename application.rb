@@ -26,7 +26,10 @@ get '/about_us' do
   erb :about_us
 end
 
-get '/inside' do
-  @css_class = "subpage"
-  erb :page
+get '/our_services' do
+  erb :our_services
+end
+
+get '/contact' do
+  erb :contact
 end
