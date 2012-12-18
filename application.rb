@@ -14,8 +14,11 @@ get '/' do
 end
 
 get '/blogs' do
-  
-  erb :blogs
+  erb :'default/blogs'
+end
+
+get '/blogs/first' do
+  erb :'default/first'
 end
 
 get '/about_us' do
