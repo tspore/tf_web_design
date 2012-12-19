@@ -15,6 +15,11 @@ ADD to SAAS app:
   overflow: hidden;
   width: 620px;
 }
+.registration_caption {
+display: block;
+margin-left: 0;
+}
+
 
 
 sign_in / register
