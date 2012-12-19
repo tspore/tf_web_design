@@ -1385,3 +1385,9 @@ float: right;
 
 
 .human label { clear:both; }
+
+.registration_caption {
+display: block;
+margin-left: 0;
+}
+

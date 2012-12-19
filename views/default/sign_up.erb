@@ -1,0 +1,47 @@
+<div class="sub-copy">
+<div class="whole">
+    <h2>Sign up</h2>
+
+    <form accept-charset="UTF-8" action="/users" class="user_new" id="user_new" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="o8lIGfYu8BnrHf5HBYNOHtQveOWdsI2ttRjJsKnLbeE="></div>
+      
+
+      <p>
+        <label for="user_display">Username</label> <br>
+        <input id="user_display" name="user[display]" size="30" type="text">
+        <span class="registration_caption">(Your public name shown to others)</span>
+
+      </p>
+
+      <p><label for="user_email">Email</label><br>
+      <input id="user_email" name="user[email]" size="30" type="text"></p>
+
+      <p><label for="user_password">Password</label><br>
+      <input id="user_password" name="user[password]" size="30" type="password"></p>
+
+      <p>
+        <label for="user_password_confirmation">Password confirmation</label><br>
+        <input id="user_password_confirmation" name="user[password_confirmation]" size="30" type="password">
+      </p>
+
+      <p>
+        <label for="user_humanizer_answer">What is the opposite of bad?</label> <br>
+        <input id="user_humanizer_answer" name="user[humanizer_answer]" size="30" type="text">
+        <input id="user_humanizer_question_id" name="user[humanizer_question_id]" type="hidden" value="12">
+      </p>
+
+      <p>
+        <input name="commit" type="submit" value="Sign up">
+      </p>
+</form>    <p>
+        <a href="/users/sign_in">Sign in</a><br>
+
+  <a href="/users/password/new">Forgot your password?</a><br>
+
+  <a href="/users/confirmation/new">Didn't receive confirmation instructions?</a><br>
+
+  <a href="/users/unlock/new">Didn't receive unlock instructions?</a><br>
+
+    </p>
+
+</div>
+</div>
