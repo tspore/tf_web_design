@@ -12,3 +12,16 @@ ADD to SAAS app:
 
 
 Records / records/enhanced  records/notenhanced
+
+
+.phone {
+  width: 200px;
+  padding-top: 10px;
+  padding-left: 790px;
+  color: #ffffff;
+  font-size: 1.3em;
+}
+
+.phone a {
+    color: #8a7741;
+}

@@ -1,0 +1,621 @@
+<!-- HOME PAGE  -->
+<div class="wrapper invent-content home-page-content" id="content-wrap">
+	<div class="invent-solid-container text-center">
+		<h1>
+			Thank you for visiting us.</h1>
+		<h2>
+			We are located in the heart of Ontario, California</h2>
+		<p>
+			<span class="invent-text-blue">Here for you and your family at the time of need, and to assist you in planning for your future needs. </span></p>
+	</div>
+	<div class="invent-solid-container-bottom">
+		&nbsp;</div>
+	<div class="column-1-4">
+		<h4 class="invent-center-text">
+			Our Mission</h4>
+		<p>
+			The mission of Bellevue Memorial Park is to provide caring service and an exceedingly well-cared for resting place for the great and culturally diverse families of the Inland Empire and surrounding areas.</p>
+		<a class="invent-read-more" href="/about-us">Read more</a>
+		<div class="clear">
+			&nbsp;</div>
+	</div>
+	<div class="column-1-4">
+		<h4 class="invent-center-text">
+			Our Services</h4>
+		<p>
+			Bellevue Memorial Park is a full service memorial park, providing a wide selection of beautiful garden sites for traditional burials, above-ground crypts in our two mausoleums and garden areas, niche internment, and urn garden burials.</p>
+		<a class="invent-read-more" href="/our-services">Read more</a>
+		<div class="clear">
+			&nbsp;</div>
+	</div>
+	<div class="column-1-4">
+		<h4 class="invent-center-text">
+			Convenience</h4>
+		<p>
+			Today more families than ever are recognizing the benefits of pre-planning...<br />
+			&quot;It gave us the opportunity to put all our affairs in order in a relaxed way, not when emotionally exhausted. We spent less...we didn&#39;t overspend.&quot;.</p>
+		<a class="invent-read-more" href="/pre-planning">Read more</a>
+		<div class="clear">
+			&nbsp;</div>
+	</div>
+	<div class="column-1-4 column-last">
+		<h4 class="invent-center-text">
+			Honor</h4>
+		<p>
+			The Board of Trustees, General Manager, staff, and grounds crew show appreciation for all of the groups and organizations and the community for their support in honoring our nation&#39;s veterans, through our programs each year.</p>
+		<a class="invent-read-more" href="/blogs">Read more</a>
+		<div class="clear">
+			&nbsp;</div>
+	</div>
+	<div class="clear">
+		&nbsp;</div>
+	<blockquote>
+		At Bellevue Memorial Park, your needs are the number one priority. Service and Integrity. <a href="our_services.html">Learn more...</a></blockquote>
+	<div class="column-1-3">
+		&nbsp;</div>
+	<div class="clear">
+		&nbsp;</div>
+</div>
+
+
+<!-- CONTACT -->
+<h1 class="page-tittle">
+	Contact</h1>
+<div class="invent-site-map">
+	<a class="active" href="#">Home</a> &rarr; <a href="#">Contact</a></div>
+<div class="invent-content" id="content-wrap">
+	<h1>
+		Our priority is your satisfaction and peace of mind.</h1>
+	<p>
+		Seventy-eight acres of historical beauty conveniently located at Mountain Avenue and G Street between the I-10 &amp; 60 Freeways in Ontario, CA</p>
+	<div class="column-7-12">
+		<div class="spacer">
+			&nbsp;</div>
+		<div class="border-standard map-margins">
+			<div class="map-canvas" id="map-canvas1" style="height: 330px; width:530px;">
+				&nbsp;</div>
+		</div>
+		<h1>
+			Don&#39;t Think About the End<br />
+			AT THE END</h1>
+		<p>
+			You can&#39;t control whether your life will be like a movie script. But what you CAN control is the direction of its last scene. Do not leave your own finale in<br />
+			anyone&#39;s hands but your own.</p>
+		<p>
+			Bellevue Memorial Park will ensure your dignified farewell to this world in one of the most beautiful parks in the Inland Empire. To reserve your place or for immediate assistance call 909-986-1201.</p>
+		<h4>
+			<strong>Burial Plots as low as $1695</strong></h4>
+		<h4>
+			<strong>Cremation internment options as low as $295</strong></h4>
+		<h4>
+			<strong>Pre-planning payments as low as $35 per month</strong></h4>
+		<p>
+			&nbsp;</p>
+		<br />
+		<br />
+		<h4>
+			<strong>VISIT OUR OFFICE</strong></h4>
+		<ul class="contact-list-icons">
+			<li class="home-contact-list-li">
+				1240 West G Street &middot; Ontario, CA 91762</li>
+			<li class="phone-contact-list-li">
+				Tel: (909) 986-1201 / Fax: (909) 986-3112</li>
+		</ul>
+		<h4>
+			<strong>VISITING HOURS</strong></h4>
+		<strong>CEMETARY VISITING HOURS:</strong> (Gate Hours)<br />
+		8 a.m. &ndash; 5 p.m. (Pacific Standard Time)<br />
+		8 a.m. &ndash; 6 p.m. (Daylight Savings Time)<br />
+		<br />
+		<strong>MAUSOLEUM VISITING HOURS:</strong><br />
+		8:30 a.m. &ndash; 4:30 p.m.<br />
+		<br />
+		<strong>ADMINISTRATION OFFICE HOURS:</strong><br />
+		8:30 a.m. &ndash; 4:30 p.m., M-F<br />
+		8:30 a.m. &ndash; 12:00 p.m. Sat<br />
+		Sunday &ndash; Closed</div>
+	<div class="column-5-12 column-last">
+		&nbsp;</div>
+	<div class="clear">
+		&nbsp;</div>
+</div>
+<!-- about-us -->
+<h1 class="page-tittle">
+	Our Mission</h1>
+<div class="invent-site-map">
+	<a class="active" href="#">Home</a> &rarr; <a class="active" href="#">About Us</a> &rarr; <a href="#">Our Mission</a></div>
+<div class="invent-content" id="content-wrap">
+	<div class="invent-solid-container text-center">
+		<h1>
+			Bellevue Memorial Park</h1>
+		<h2>
+			Our Mission of Service. Our Commitment to Everyone.</h2>
+		<p>
+			<span class="invent-text-blue">Our promise to be there for you.</span></p>
+	</div>
+	<div class="invent-solid-container-bottom">
+		&nbsp;</div>
+	<div class="column-1-2">
+		<h4 class="image-center">
+			<img alt="sunset" height="296" longdesc="images/sunsetmauso.jpg" src="http://cms.allplaces.net/ivylawn/bellevue/images/sunsetmauso.jpg" width="463" /></h4>
+	</div>
+	<div class="column-1-2 column-last">
+		<h4 class="icon-header">
+			Our Mission</h4>
+		<p>
+			The mission of Bellevue Memorial Park is to provide caring service and an exceedingly well-cared for resting place for the great and culturally diverse families of the Inland Empire and surrounding areas.<br />
+			<br />
+			<strong>Overview</strong><br />
+			Bellevue Memorial Park is an historic cemetery located in the heart of Ontario, California. Founded in 1892, and with over 115 years of experience, Bellevue has been helping families in the community with the often difficult decisions they are faced with when a loss occurs. Bellevue Memorial Park has been providing families with expert service for generations. From our knowledgeable, experienced staff of family service counselors, to our meticulous grounds team, we are here for you and your family at the time of need, and to assist you in planning for your future needs.</p>
+		<p>
+			&nbsp;</p>
+	</div>
+	<div class="clear">
+		&nbsp;</div>
+	<div class="column-1-1">
+		<p>
+			Bellevue Memorial Park proudly serves all faiths and cultures, and we offer many different options and plans for you and your loved ones. The beautiful park provides a peaceful setting for outdoor services, and the two mausoleums provide a comforting indoor environment, with a variety of competitively priced crypts and niches. The three mausoleum chapels are available for on-site family services and special holiday events sponsored by the cemetery.</p>
+		<p>
+			Bellevue Memorial Park is a private, non-profit cemetery, which operates under Endowment Care, providing for the care, maintenance, and embellishment of the cemetery, and, ensuring that the beauty of the park is preserved for generations to come.</p>
+		<p>
+			Whether you are pre-planning for yourself or a loved one, or simply wish to remember a special person in your life with a memorial, Bellevue Memorial Park is here to assist you.<br />
+			<br />
+			We invite you to visit us and share in the beauty of the old oaks, discover a bit of Ontario&#39;s history, and remember and reflect in the serene settings of the park&#39;s tranquil landscape.</p>
+	</div>
+	<div class="clear">
+		&nbsp;</div>
+</div>
+<div class="clear">
+	&nbsp;</div>
+
+<!-- OUR SERVICES -->
+<h1 class="page-tittle">
+	Our Services</h1>
+<div class="invent-site-map">
+	<a class="active" href="#">Home</a> &rarr; <a class="active" href="#">Our Services</a></div>
+<section class="invent-content" id="content-wrap">
+	<div class="invent-gallery">
+		<ul class="gallery-splitter" id="gallery-splitter-1">
+			<li class="gallery-all selected">
+				<a href="#gallery-all" rel="all">All</a></li>
+			<li class="gallery-gb">
+				<a href="#gallery-gb" rel="gallerygroup-gb">Ground Burials</a></li>
+			<li class="gallery-m">
+				<a href="#gallery-m" rel="gallerygroup-m">Mausoleums</a></li>
+			<li class="gallery-cb">
+				<a href="#gallery-cb" rel="gallerygroup-cb">Cremation Options</a></li>
+			<li class="gallery-mm">
+				<a href="#gallery-mm" rel="gallerygroup-mm">Memorial Markers</a></li>
+			<li class="gallery-bv">
+				<a href="#gallery-bv" rel="gallerygroup-bv">Burial Vaults</a></li>
+			<li class="gallery-pp">
+				<a href="/pre-planning">Pre-Planning</a></li>
+		</ul>
+		<div class="portfolio-1-3" style="height: 3961px; ">
+			<div class="portfolio-element gallery-gb gallery-Photos" style="z-index: 3; left: 0px; top: 5px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Ground Burial" class="invent-media-element attachment-invent-small" height="258" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/ground burial/photo1.jpg" style="" title="Ground Burial" width="275" /> <a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/ground burial/photo1.jpg" rel="lightbox" title="Ground Burial"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Ground Burial</h5>
+					<p>
+						Bellevue Memorial Park is a full service memorial park, providing a wide selection of beautiful garden sites for traditional burials, above-ground crypts in our two mausoleums and garden areas, niche internment, and urn garden burials. We offer competitive pricing allowing you to choose the locations and services which best fit your needs. Family Service Counselors are knowledgeable and experienced, offering you dedicated service and follow through, even after your needs have been met.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-gb" style="z-index: 3; left: 320px; top: 5px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Ground Burial" class="invent-media-element attachment-invent-small" height="258" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/ground burial/camellia_urn garden.gif" style="" title="Ground Burial" width="275" /><a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/ground burial/camellia_urn garden.gif" rel="lightbox" title="Obilisk"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Ground Burial</h5>
+					<p>
+						Bellevue Memorial Park has many sections, both old and new, to choose from for traditional ground burials. Traditional ground burials are what most often come to mind when thinking of a cemetery.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-gb gallery-gb" style="z-index: 3; left: 640px; top: 5px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Ground Burial" class="invent-media-element attachment-invent-small" height="258" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/ground burial/rose_scattering_gardens.gif" style="" title="Ground Burial" width="275" /><a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/ground burial/rose_scattering_gardens.gif" rel="lightbox" title="Rose Scattering Gardens"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Ground Burial</h5>
+					<p>
+						The newest sections which have recently become available are located at the west end of our park&ndash; the new Sunset Courtyard, and adjacent to it, the new Redwood section,which opened in early 2008. Traditional ground burial plots and lawn estates are affordably priced.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-m gallery-m" style="z-index: 3; left: 0px; top: 573px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Ground Burial" class="invent-media-element attachment-invent-small" height="258" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/mauscryptsniches/photo2.jpg" style="" title="Mausoleum" width="275" /><a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/mauscryptsniches/photo2.jpg" rel="lightbox" title="Mausoleum"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Mausoleum Crypt</h5>
+					<p>
+						Our two mausoleum buildings, Bellevue Mausoleum, and the newest, Sunset Mausoleum which opened in 2005, offer tremendous selections, as well as a variety of locations and pricing for those desiring an environment which is more private and protected from the elements of nature. Our mausoleums are enclosed structures in which we offer crypt entombment and niche internment. Bellevue and Sunset Mausoleum crypts are offered as singles, tandems, and side tandems or &quot;True Companion.&quot;</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-m" style="z-index: 3; left: 320px; top: 573px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Mausoleum" class="invent-media-element attachment-invent-small" height="258" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/mauscryptsniches/maus2.jpg" style="" title="Mausoleum" width="275" /><a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/mauscryptsniches/maus2.jpg" rel="lightbox" title="Mausoleum"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Mausoleum Crypt</h5>
+					<p>
+						Crypts are available on seven different levels in both mausoleum buildings, and are priced from $3,180.00 to $30,351.00. The new Sunset Mausoleum incorporates a beautiful blend of Tuscan and California Mission style architecture, while the original Bellevue Mausoleum maintains a traditional flavor with its marble and stone features.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-m gallery-m" style="z-index: 3; left: 640px; top: 573px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Glass Nitches" class="invent-media-element attachment-invent-small" height="258" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/mauscryptsniches/glass_niches.jpg" style="" title="Glass Nitches" width="275	" /><a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/mauscryptsniches/glass_niches.jpg" rel="lightbox" title="Glass Nitches"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Glass Nitches</h5>
+					<p>
+						Both mausoleums offer niches, with a choice of glass front or bronze plate styles, with sizes to accommodate both single as well as family internment. Niches are priced from $600.00, single, to $5,995.00 for a family niche.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-cb gallery-cb" style="z-index: 3; left: 0px; top: 1141px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Cremation Options" class="invent-media-element attachment-invent-small" height="258" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/creamtion/photo5.jpg" style="" title="Cremation Options" width="275" /><a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/creamtion/photo5.jpg" rel="lightbox" title="Rose Scattering Gardens"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Cremation Burial Spaces</h5>
+					<p>
+						Bellevue Memorial Park offers cremation burials in our peaceful Memorial and Palm Cremation Garden under the towering pines, Meditation Garden located next to Bellevue Mausoleum, the Veterans Garden, and as a Second Right of Interment to traditional ground burial.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-cb gallery-cb" style="z-index: 3; left: 320px; top: 1141px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Rose Scattering Gardens" class="invent-media-element attachment-invent-small" height="258" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/creamtion/roses1.jpg" style="" title="Rose Scattering Gardens" width="275" /> <a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/creamtion/photo5.jpg" rel="lightbox" title="Rose Scattering Gardens"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Rose Scattering Gardens</h5>
+					<p>
+						The newest cremation option which is now available at Bellevue Memorial Park is cremation scattering in one of the five new Cremation Rose Scattering Gardens. These picturesque stone features are enhanced with beautiful, delicate rose varieties, and are located in the cemetery sections of Deodar, Catholic, Holy Cross, Redwood, and Elm.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-cb gallery-cb" style="z-index: 3; left: 640px; top: 1141px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Rose Scattering Gardens" class="invent-media-element attachment-invent-small" height="258" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/creamtion/roses2.jpg" style="" title="Rose Scattering Gardens" width="275" />
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Rose Scattering Gardens</h5>
+					<p>
+						The Rose Scattering Gardens are dedicated sites, and provide yet another option for families requesting cremation interment in a tranquil, serene, and natural environment. Memorialization is available for the remembrance of family loved ones, and as a focal point for visitation and reflection.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-mm gallery-mm" style="z-index: 3; left: 0px; top: 1709px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Memorial Markers" class="invent-media-element attachment-invent-small" height="258" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/memmarkers/photo4.jpg" style="" title="Memorial Markers" width="275" />
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Memorial Markers</h5>
+					<p>
+						Bellevue Memorial Park offers memorial markers which are a lasting and visible tribute to your loved ones. You can customize the marker you select to capture the true essence and character of your loved ones by choosing from the variety of colors and designs available.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-mm gallery-mm" style="z-index: 3; left: 320px; top: 1709px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Memorial Markers" class="invent-media-element attachment-invent-small" height="140" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/memmarkers/marker1.jpg" style="" title="Memorial Markers" width="280" />
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Memorial Markers</h5>
+					<p>
+						We use only the highest quality materials, with expert craftsmanship and attention to detail. Markers may be ordered as a single, or as a companion style, and may be personalized with a mounted monument portrait. Standard and custom emblems are available for military, civic, and community service groups.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-mm gallery-mm" style="z-index: 3; left: 640px; top: 1709px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Memorial Markers" class="invent-media-element attachment-invent-small" height="140" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/memmarkers/marker2.jpg" style="" title="Memorial Markers" width="280" />
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Memorial Markers</h5>
+					<p>
+						From elegant simplicity to intricate design, you will be pleased with a hand-crafted memorial at a reasonable cost. Markers may be purchased for traditional ground burials as well as infant, military, and cremation burials, with prices starting at $260.00. (Prices will vary depending on granite colors and customization).</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-mm gallery-mm" style="z-index: 3; left: 0px; top: 2277px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Memorial Markers" class="invent-media-element attachment-invent-small" height="140" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/memmarkers/marker3.jpg" style="" title="Memorial Markers" width="280" />
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Memorial Markers</h5>
+					<p>
+						Memorial Markers may be purchased at the cemetery office, and only granite or bronze memorials are allowed. Detailed regulations and instructions pertaining to materials, sizes, and designs permitted by the Rules and Regulations of the Cemetery are available at the Administration office.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-mm gallery-mm" style="z-index: 3; left: 320px; top: 2277px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Memorial Markers" class="invent-media-element attachment-invent-small" height="140" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/memmarkers/marker4.jpg" style="" title="Memorial Markers" width="280" />
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Memorial Markers</h5>
+					<p>
+						Payment arrangements are available, both pre-need and after the loss of a loved one.</p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-bv gallery-bv" style="z-index: 3; left: 640px; top: 2277px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Burial Vaults" class="invent-media-element attachment-invent-small" height="114" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/vault_copper_triune.jpg" style="" title="Burial Vaults" width="267" /> <a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/vault_copper_triune.jpg" rel="lightbox" title="Copper Triune"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Burial Vaults of Wilbert Vaults</h5>
+					<p>
+						Burial vaults in the following materials of concrete, plastic, or metal, are designed to protect the casket inside of it from the weight of the ground above, from water intrusion, and from other elements. Unlike a burial liner, which covers the top and sides of the casket, a vault completely encloses the casket. <strong>(PICTURED: Wilbert Vaults - Premium: Copper Truine)</strong></p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-bv gallery-bv" style="z-index: 3; left: 0px; top: 2845px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Burial Vaults" class="invent-media-element attachment-invent-small" height="127" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/vault3.jpg" style="" title="Burial Vaults" width="268" /> <a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/vault3.jpg" rel="lightbox" title="Bronze Triune"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Burial Vaults</h5>
+					<p>
+						Our Family Service Counselors are very knowledgeable on the many different types of vaults which are available today, and will assist you with the appropriate selection for your service. <strong>(PICTURED: Wilbert Vaults - Premium: Bronze Truine)</strong></p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-bv gallery-bv" style="z-index: 3; left: 320px; top: 2845px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Burial Vaults" class="invent-media-element attachment-invent-small" height="127" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/vault4.jpg" style="" title="Burial Vaults" width="268" /> <a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/vault4.jpg" rel="lightbox" title="Cameo Rose Triune"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Burial Vaults</h5>
+					<p>
+						Burial vaults are priced from $375.00 to $9,525.00. Cremation urn vaults are also available, and are priced from $195.00 to $540.00. <strong>(PICTURED: Wilbert Vaults - Standard: Cameo Rose Truine)</strong></p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-bv gallery-bv" style="z-index: 3; left: 640px; top: 2845px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Burial Vaults" class="invent-media-element attachment-invent-small" height="127" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/stainless_steel.jpg" style="" title="Burial Vaults" width="268" /> <a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/stainless_steel.jpg" rel="lightbox" title="Stainless Steel Triune"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Burial Vaults</h5>
+					<p>
+						<strong>Wilbert Vaults - Standard: Stainless Steel Triune</strong></p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-bv gallery-bv" style="z-index: 3; left: 0px; top: 3413px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Burial Vaults" class="invent-media-element attachment-invent-small" height="123" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/vault1.jpg" style="" title="Burial Vaults" width="267" /> <a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/vault1.jpg" rel="lightbox" title="Venetian"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Burial Vaults</h5>
+					<p>
+						<strong>Wilbert Vaults- Basic Plus:Venetian</strong></p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-bv gallery-bv" style="z-index: 3; left: 320px; top: 3413px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Burial Vaults" class="invent-media-element attachment-invent-small" height="119" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/continental.jpg" style="" title="Burial Vaults" width="267" /> <a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/continental.jpg" rel="lightbox" title="Continental"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Burial Vaults</h5>
+					<p>
+						<strong>Wilbert Vaults - Basic: Continental</strong></p>
+				</div>
+			</div>
+			<div class="portfolio-element gallery-bv gallery-bv" style="z-index: 3; left: 640px; top: 3413px; ">
+				<div class="invent-media-container image-left border-standard">
+					<img alt="Burial Vaults" class="invent-media-element attachment-invent-small" height="119" src="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/vault5.jpg" style="" title="Burial Vaults" width="267" /> <a class="mask" href="http://cms.allplaces.net/ivylawn/bellevue/images/OurServices/Vaults/vault5.jpg" rel="lightbox" title="Salute"> </a>
+					<div class="hover-icon invent-hover-lupe">
+						&nbsp;</div>
+				</div>
+				<div class="image-description">
+					<h5>
+						Burial Vaults</h5>
+					<p>
+						<strong>Wilbert Vaults - Basic: Salute</strong></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Board and Staff -->
+<h1 class="page-tittle">
+	Meet Our Board of Directors and Staff</h1>
+<div class="invent-site-map">
+	<a class="active" href="#">Home</a> &rarr; <a class="active" href="#">About</a> &rarr; <a href="#">Board &amp; Staff</a></div>
+<div class="invent-content" id="content-wrap">
+	<div class="invent-solid-container text-center">
+		<h1>
+			Bellevue Memorial Park</h1>
+		<p>
+			<span class="invent-text-blue">Taking pride in Excellence</span></p>
+	</div>
+	<h2>
+		Board of Directors</h2>
+	<div class="board_photo">
+		<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Renee Biane" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/RENEE-BIANE.jpg" title="Rene Biane" /></a>
+		<h4>
+			Ren&eacute; Biane</h4>
+		<h6>
+			<i>President</i></h6>
+		<p>
+			&nbsp;</p>
+	</div>
+	<div class="board_photo">
+		<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Ron Yokley" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/RON-YOKLEY.jpg" title="Ron Yokley" /></a>
+		<h4>
+			Ron Yokley</h4>
+		<h6>
+			<i>Member</i></h6>
+		<p>
+			&nbsp;</p>
+	</div>
+	<div class="board_photo">
+		<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Lowell Stark" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/LOWELL-STARK.jpg" title="Lowell Stark" /></a>
+		<h4>
+			Lowell Stark</h4>
+		<h6>
+			<i>Vice President</i></h6>
+		<p>
+			&nbsp;</p>
+	</div>
+	<div class="board_photo">
+		<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Jim Banks" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/JAMES-BANK.jpg" title="James Bank" /></a>
+		<h4>
+			James Bank, Jr.</h4>
+		<h6>
+			<i>Secretary</i></h6>
+		<p>
+			&nbsp;</p>
+	</div>
+	<div class="board_photo">
+		<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Skip Runner" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/lOREN-RUNNER.jpg" title="Loren Runner" /></a>
+		<h4>
+			Loren Runner</h4>
+		<h6>
+			<i>Treasurer</i></h6>
+		<p>
+			&nbsp;</p>
+	</div>
+	<div class="clear">
+		&nbsp;</div>
+	<hr />
+	<div class="clear">
+		&nbsp;</div>
+</div>
+<div class="clear">
+	&nbsp;</div>
+<h2>
+	Bellevue Memorial Park Staff</h2>
+<p>
+	<span class="invent-text-blue">Providing you with the explemplary service and attention you and your family deserves.</span></p>
+<p>
+	&nbsp;</p>
+<div class="board_photo" id="randy">
+	<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Your image title" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/RANDY.jpg" title="Randy Inlow" /></a>
+	<h4>
+		Randy Inlow</h4>
+	<h6>
+		<i>General Manager</i></h6>
+	<p>
+		<a href="mailto: rinlow@bellevueemp.com">rinlow@bellevueemp.com</a></p>
+</div>
+<div class="board_photo">
+	<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Your image title" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/lteal.jpg" title="Lori Teal" /></a>
+	<h4>
+		Lori Teal</h4>
+	<h6>
+		<i>family counselor/ Marketing Director</i></h6>
+	<p>
+		<a href="mailto: lteal@bellevuemp.com">lteal@bellevuemp.com</a></p>
+</div>
+<div class="board_photo">
+	<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Your image title" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/MARY-B.jpg" title="Mary Bourque" /></a>
+	<h4>
+		Mary Bourque</h4>
+	<h6>
+		<i>Administrative Associate</i></h6>
+	<p>
+		<a href="mailto:mborurque@bellevueemp.com">mborurque@bellevueemp.com</a></p>
+</div>
+<div class="board_photo">
+	<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Your image title" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/KATE-1.jpg" title="Kate Seeger" /></a>
+	<h4>
+		Kate Seeger</h4>
+	<h6>
+		<i>Interment Cordinator</i></h6>
+	<p>
+		<a href="mailto:kseeger@bellevuemp.com">kseeger@bellevuemp.com</a></p>
+</div>
+<div class="clear">
+	&nbsp;</div>
+<hr />
+<div class="board_photo" id="mary">
+	<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Your image title" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/MARY-HELEN.jpg" title="Mary Helen" /></a>
+	<h4>
+		Mary Helen Gonzales</h4>
+	<h6>
+		<i>Family Service Counselor</i></h6>
+	<h6>
+		<i>Se Habla Espa&ntilde;ol</i></h6>
+	<p>
+		<a href="mailto:mgonzales@bellevuemp.com">mgonzales@bellevuemp.com</a></p>
+</div>
+<div class="board_photo">
+	<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Your image title" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/DEZ.jpg" title="Dez Fedorysyn" /></a>
+	<h4>
+		Dez Fedorysyn</h4>
+	<h6>
+		<i>Family Service Counselor</i></h6>
+	<h6>
+		<i>Se Habla Espa&ntilde;ol</i></h6>
+	<p>
+		<a href="mailto:dez@bellevuemp.com">dez@bellevuemp.com</a></p>
+</div>
+<div class="board_photo">
+	<a class="image-no-decoration image-left image-no-link" title="Your image title"><img alt="Your image title" class="attachment-invent-small" src="http://d3504266c52e91094680-73df30f0c373bf2983e6b9426304f834.r68.cf1.rackcdn.com/bellevue/LINDA.jpg" title="Lind Marra" /></a>
+	<h4>
+		Linda Marra</h4>
+	<h6>
+		<i>Accounting Manager</i></h6>
+	<p>
+		<a href="mailto:lmarra@bellevuemp.com">lmarra@bellevuemp.com</a></p>
+</div>
+<div class="clear">
+	&nbsp;</div>
+<div class="clear">
+	&nbsp;</div>
+
+
