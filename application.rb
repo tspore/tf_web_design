@@ -41,3 +41,11 @@ end
 get '/contact' do
   erb :contact
 end
+
+get '/users/sign_in' do
+  erb :'default/sign_in'
+end
+
+get '/users/sign_up' do
+  erb :'default/sign_up'
+end
