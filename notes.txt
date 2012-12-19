@@ -9,18 +9,6 @@ Add pages:
 
 
 ADD to SAAS app:
-.two_thirds {
-  float: left;
-  margin: 10px;
-  overflow: hidden;
-  width: 620px;
-}
-.registration_caption {
-display: block;
-margin-left: 0;
-}
 
 
-
-sign_in / register
 Records / records/enhanced  records/notenhanced
