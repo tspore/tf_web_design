@@ -49,3 +49,15 @@ end
 get '/users/sign_up' do
   erb :'default/sign_up'
 end
+
+get '/records' do
+  erb :'default/records'
+end
+
+get '/records/unenhanced' do
+  erb :'default/unenhanced'
+end
+
+get '/records/enhanced' do
+  erb :'default/enhanced'
+end
