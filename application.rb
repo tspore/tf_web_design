@@ -21,6 +21,10 @@ end
 get '/crematory' do
   erb :crematory
 end
+
+get '/products' do
+  erb :products
+end
   
 
 get '/blogs' do
