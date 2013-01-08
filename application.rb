@@ -13,6 +13,16 @@ get '/' do
   erb :home
 end
 
+get '/about' do 
+
+  erb :about
+end
+
+get '/crematory' do
+  erb :crematory
+end
+  
+
 get '/blogs' do
   erb :'default/blogs'
 end
